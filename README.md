@@ -3,7 +3,7 @@
 ## Overview
 This project develops a machine learning-based system for predicting Deoxynivalenol (DON) concentration in corn samples using hyperspectral imaging data. The system employs both traditional machine learning and deep learning approaches to achieve accurate predictions, with the best model achieving an RMSE of 1423.12 ppb.
 
-## Video Demonstration
+## Video Demonstration CLICK IT
 Watch the interactive Streamlit app demonstration:CLICK IT
 [![DON Prediction App Demo](https://img.youtube.com/vi/JKl-dyVAp0A/0.jpg)](https://www.youtube.com/watch?v=JKl-dyVAp0A)
 
