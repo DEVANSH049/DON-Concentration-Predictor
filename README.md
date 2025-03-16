@@ -68,17 +68,17 @@ streamlit run app.py
 
 | PCA Components | Model | RMSE (ppb) | MAE (ppb) | R² |
 |---------------|-------|------------|-----------|-----|
-| 3 | XGBoost | 1588.34 | 835.09 | 0.9821 |
-| 5 | CNN Residual | 1487.65 | 792.43 | 0.9883 |
-| 10 | XGBoost | 1423.12 | 781.87 | 0.9901 |
-| 20 | Transformer | 1502.31 | 803.56 | 0.9876 |
+| 3 | Random Forest | 13791.8 | 3965.5 | 0.3195 |
+| 5 | Random Forest | 13869.6 | 4151.0424 | 0.3118 |
+| 10 | XGBoost | 13952.37 | 3741.8 | 0.3036 |
+| 20 | XGBoost | 13871.3 | 3930.8 | 0.3117 |
 
 ### Training Characteristics
 
-- **LSTM**: 80-120 epochs, moderate convergence
-- **CNN Residual**: 50-70 epochs, fast convergence
+- **LSTM**: 80-300 epochs, moderate convergence
+- **CNN Residual**: 50-300 epochs, fast convergence
 - **TCN**: Slower initial convergence, stable patterns
-- **Transformer**: Variable convergence, 40-100 epochs
+- **Transformer**: Variable convergence, 40-300 epochs
 
 ## Data Preprocessing
 
